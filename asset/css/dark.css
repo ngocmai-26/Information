@@ -1,0 +1,172 @@
+.dark-theme{
+    background-color: #212121;
+}
+
+.dark-theme .left-part {
+    background-color: #161616;
+}
+
+.dark-theme .right-part__about {
+    background-color: #212121;
+}
+
+.dark-theme .slide {
+    background-image: url('../image/D206jimU4AAZ3BN.jpg');
+}
+
+.dark-theme .about__heading {
+    color: #9f9d9d;
+}
+
+.dark-theme .about__body-description {
+    color: #9f9d9d;
+}
+
+.dark-theme .about__socials-link {
+    color: #9f9d9d;
+}
+
+.dark-theme .right-part__skill-heading {
+    color: #9f9d9d;
+}
+
+.dark-theme .skills__progess-wrap{
+    color: #9f9d9d;
+}
+
+.dark-theme .skills__progess-bar {
+    background-color: aliceblue;
+}
+
+.dark-theme .skills__progess-bar::after {
+    background-color: aliceblue;
+}
+
+.dark-theme .skills__progess {
+    background-color: #353535;
+}
+
+
+.dark-theme .about__field {
+    border-radius: 2px;
+    box-shadow: 0 0 1px rgb(255 255 255 / 50%);
+    background-color: #353535;
+}
+
+.dark-theme .about__field > i {
+    color: #fff
+}
+
+.dark-theme .about__field > span {
+    color: #9f9d9d;
+}
+
+.dark-theme .about__field-experience-icon {
+    color: #9f9d9d;
+}
+
+.dark-theme .about__field-experience-title  {
+    color: #9f9d9d;
+}
+
+.dark-theme .about__field::after {
+    width: 0;
+}
+
+.dark-theme .contact__heading{
+    color: #9f9d9d;
+}
+
+.dark-theme .contact__warp-info-icon {
+    color: #9f9d9d;
+}
+
+.dark-theme .contact__form-input {
+    background-color: #212121;
+    border: 1px solid #343433;
+}
+
+.dark-theme .contact__warp-info-email,
+.dark-theme .contact__warp-info-message
+{
+    background-color: #3b3a3e;
+    border: 1px solid #3b3a3e;
+    color: #a7a7a7;
+}
+
+.dark-theme .contact__warp-info-phone {
+    background-color: #5a636d;
+    border: 1px solid #5a636d;
+}
+
+.dark-theme .contact__title-main {
+    color: #fff;
+}
+
+.dark-theme .contact__form-input:focus + .contact__label{
+    background-color: #212121;
+    color: #fff;
+}
+.dark-theme .contact__warp-info:hover {
+    background-color: #212121;
+    border: 1px solid #343433;
+}
+
+.dark-theme  .contact__label {
+    color: #7c7c7c;
+}
+
+.dark-theme .submit {
+    background-color: #5a636d;
+    border: 1px solid #5a636d;
+}
+
+.dark-theme .submit:hover {
+    background-color: #3b3a3e;
+    border: 1px solid #3b3a3e;
+}
+
+.dark-theme .header {
+   background-color: #161616; 
+   box-shadow: 0px 1px 10px rgb(58 58 58);
+}
+
+.dark-theme .surf_out {
+    background-color: #383737;
+}
+
+.btn-toggle {
+    display: inline-block;
+    width:60px;
+    height: 30px;
+    background-color: #1EC3F4;
+    background-image: url('background@2x.png');
+    background-size: 100%;
+    border-radius: 24px;
+    position: relative;
+    transition: all ease-in-out .4s; /* animati tutti gli elementi (all), accelerazione ease-in-out, durata 0.4 secondi */
+    cursor: pointer;
+    margin: 0 45px;
+    
+}
+
+.btn-toggle::before {
+    position: absolute;
+    width:20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    left:6px;
+    top:3px;
+    content: '';
+    transition: all ease-in-out .4s;
+    z-index: 10;
+}
+
+.btn-toggle.toggle-btn--dark {
+    background-color: #13447E;
+}
+
+.btn-toggle.toggle-btn--dark::before {
+    left: 30px;
+}

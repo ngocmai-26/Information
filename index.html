@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/gird.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <link rel="stylesheet" href="./asset/css/dark.css">
+    <link rel="stylesheet" href="./asset/icon/fontawesome-free-5.15.4-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./asset/icon/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="header__logo"></div>
+            <div class="header__nav">
+                <div class="header__nav-menu">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="hamburger-menu" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(153, 171, 184);"><path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path></svg>     
+                </div>
+                <div class="header__nav-dark btn-toggle-mobile">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="lightmode" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(153, 171, 184);"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"></path></svg>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="darkmode hidden" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path></svg>
+                </div>
+            </div>
+            <div class="nav surf_in ">
+                <div class="nav__icon ">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="hamburger-menu" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(153, 171, 184);"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 8.707l3.646 3.647.708-.707L8.707 8l3.647-3.646-.707-.708L8 7.293 4.354 3.646l-.707.708L7.293 8l-3.646 3.646.707.708L8 8.707z"></path></svg>
+                </div>
+                <div class="nav__mobile ">
+                    <ul class="nav__mobile-menu">
+                        <li class="left-part__item left-part__item-mobile left-part__item--effect left-part__item--active" data-order="0"><span>Home</span></li>
+                        <li class="left-part__item left-part__item-mobile left-part__item--effect" data-order="1"><span>About</span></li>
+                        <li class="left-part__item left-part__item-mobile left-part__item--effect" data-order="2"><span>Skill</span></li>
+                        <li class="left-part__item left-part__item-mobile left-part__item--effect" data-order="3"><span>Project</span></li>
+                        <li class="left-part__item left-part__item-mobile left-part__item--effect" data-order="4"><span>Contact</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="left-part">
+                <div class="left-part__container">
+                    <div class="left-part__navigation">
+                        <ul class="left-part__menu">
+                            <li class="left-part__item left-part__item-pc left-part__item--effect left-part__item--active" data-order="0"><span>Home</span></li>
+                            <li class="left-part__item left-part__item-pc left-part__item--effect" data-order="1"><span>About</span></li>
+                            <li class="left-part__item left-part__item-pc left-part__item--effect" data-order="2"><span>Skill</span></li>
+                            <li class="left-part__item left-part__item-pc left-part__item--effect" data-order="3"><span>Project</span></li>
+                            <li class="left-part__item left-part__item-pc left-part__item--effect" data-order="4"><span>Contact</span></li>
+                        </ul>
+                    </div>
+                    <button class="btn-toggle"></button>
+                    <!-- <div class="left-part__footer">
+                         © 2022 Designed by 
+                        <a href="https://www.facebook.com/profile.php?id=100041341173475" class="infor-fb">Nguyen Thi Ngoc Mai</a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="right-parts">
+                <div class="right-part right-part__home">
+                    <div class="right-part____information">
+                        <div class="right-part____information-item">
+                            <div class="right-part__infor">
+                                <h2>Hi, I'm <span class="my-name">NGOC MAI</span></h2>
+                            </div>
+                            <div class="right-part__description">
+                                <span class="text-description">Frontend Developer</span>
+                            </div>
+                            <div class="right-part__slogan">
+                                <span class="text-slogan text-blue">Passion, Efforts, Try, Meticulousness is an indispensable quality of a programmer</span>
+                            </div>
+                            <div class="right-part__color">
+                                <div class="color-blue">
+                                    <div class="color-check-blue color-main"></div>
+                                </div>
+                                <div class="color-brown">
+                                    <div class="color-check-brown"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-part____avatar">
+                        <img src="./asset/image/avatar.jpg" alt="avatar" class="avatar">
+                    </div>
+                </div>
+                <div class="right-part right-part__about">
+                    <div class="right-part__about-padding">
+                        <div class="about__heading">
+                            <span> Get to Know</span>
+                            <h2>About Me</h2>
+                        </div>
+                        <div class="about__body">
+                            <div class="about__body-description">
+                                <h2 class="about__body-description-title">WHO AM I ?</h2>
+                                <span class="about__body-description-text">Hello, My name is Ngoc Mai .I am a student at Binh Duong University, currently studying information technology. 
+                                    Although female, I have tried a lot in these fields and my major is software engineering. 
+                                    As a programmer, programming has become an integral part of my life.
+                                </span> 
+                                <br>
+                                <br>
+                                <span class="about__body-description-text">My projects will be updated here. Follow me if you are interested in them.</span>
+                            </div>
+                            <div class="about__CV">
+                                <div class="about__CV-download" id="fileRequest">
+                                    <a href="./asset/CV.pdf" download>Download CV</a>
+                                </div>
+                                <div class="about__socials">
+                                    <ul class="about__socials-list">
+                                        <li class="about__socials-item">
+                                            <a href="" class="about__socials-link"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li class="about__socials-item">
+                                            <a href="" class="about__socials-link"><i class="fab fa-github"></i></a>
+                                        </li>
+                                        <li class="about__socials-item">
+                                            <a href="" class="about__socials-link"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li class="about__socials-item">
+                                            <a href="" class="about__socials-link"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="about__fields">
+                            <div class="about__fields-item about__fields-design about__field">
+                                <div class="about__field-experience">
+                                    <div class="about__field-experience-icon icon__design">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </div>
+                                    <div class="about__field-experience-title ">
+                                        Web Design
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about__fields-item about__fields-data about__field">
+                                <div class="about__field-experience">
+                                    <div class="about__field-experience-icon icon__data">
+                                        <i class="fas fa-chart-line"></i>
+                                    </div>
+                                    <div class="about__field-experience-title">
+                                        Data Analyst 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about__fields-item about__fields-net about__field">
+                                <div class="about__field-experience">
+                                    <div class="about__field-experience-icon icon__net">
+                                        <i class="fas fa-network-wired"></i>
+                                    </div>
+                                    <div class="about__field-experience-title">
+                                        Networking
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-part right-part__skill skills">
+                    <div class="right-part__skill-heading">
+                        <span class="skill-heading-text">What Skill I Have</span>
+                        <h2 class="skill-heading-name">Skill</h2>
+                    </div>
+                    <div class="gird wide">
+                        <div class="row skill-wide  wide">
+                            <div class="col l-6 m-12 c-12">
+                                <div class="skill__warps">
+                                    <div class="skill__warp">
+                                        <div class="skills__progess-wrap">
+                                            <span class="skills__progess-title">
+                                                Python
+                                            </span>
+                                            <span class="skills__progess-rate">
+                                                40%
+                                            </span>
+                                        </div>
+                                        <div class="skills__progess">
+                                            <div class="skills__progess-bar skill-python"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill__warp">
+                                        <div class="skills__progess-wrap">
+                                            <span class="skills__progess-title">
+                                                C#/.NET
+                                            </span>
+                                            <span class="skills__progess-rate">
+                                                60%
+                                            </span>
+                                        </div>
+                                        <div class="skills__progess">
+                                            <div class="skills__progess-bar skill-Csharp"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill__warp">
+                                        <div class="skills__progess-wrap">
+                                            <span class="skills__progess-title">
+                                                PHP/Laravel
+                                            </span>
+                                            <span class="skills__progess-rate">
+                                                80%
+                                            </span>
+                                        </div>
+                                        <div class="skills__progess">
+                                            <div class="skills__progess-bar skill-laravel"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill__warp">
+                                        <div class="skills__progess-wrap">
+                                            <span class="skills__progess-title">
+                                                HTML/CSS/Bootstrap
+                                            </span>
+                                            <span class="skills__progess-rate ">
+                                                80%
+                                            </span>
+                                        </div>
+                                        <div class="skills__progess">
+                                            <div class="skills__progess-bar skill-html">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-6 m-12 c-12">
+                                <div class="skill__warps">
+                                    <div class="skill__warp">
+                                        <div class="skills__progess-wrap">
+                                            <span class="skills__progess-title">
+                                                Dart
+                                            </span>
+                                            <span class="skills__progess-rate ">
+                                                50%
+                                            </span>
+                                        </div>
+                                        <div class="skills__progess">
+                                            <div class="skills__progess-bar skill-dart">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill__warp">
+                                        <div class="skills__progess-wrap">
+                                            <span class="skills__progess-title">
+                                                JS/ReactJS
+                                            </span>
+                                            <span class="skills__progess-rate ">
+                                                65%
+                                            </span>
+                                        </div>
+                                        <div class="skills__progess">
+                                            <div class="skills__progess-bar skill-js">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill__warp">
+                                        <div class="skills__progess-wrap">
+                                            <span class="skills__progess-title">
+                                                Photoshop
+                                            </span>
+                                            <span class="skills__progess-rate ">
+                                                50%
+                                            </span>
+                                        </div>
+                                        <div class="skills__progess">
+                                            <div class="skills__progess-bar skill-photoshop">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill__warp">
+                                        <div class="skills__progess-wrap">
+                                            <span class="skills__progess-title">
+                                                Networking
+                                            </span>
+                                            <span class="skills__progess-rate">
+                                                75%
+                                            </span>
+                                        </div>
+                                        <div class="skills__progess">
+                                            <div class="skills__progess-bar skill-networking"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="gird">
+                        <div class="row">
+                            <div class="col l-3 m-3 c-12">
+                                <div class="slide__content">
+                                    <span class="slide__title">8</span>
+                                    <span class="slide__description">PROJECT</span>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-12">
+                                <div class="slide__content">
+                                    <span class="slide__title">6</span>
+                                    <span class="slide__description">PROGRAMING LANGUAGES</span>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-12">
+                                <div class="slide__content">
+                                    <span class="slide__title">3</span>
+                                    <span class="slide__description">CERTIFICATES</span>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-12">
+                                <div class="slide__content">
+                                    <span class="slide__title">1</span>
+                                    <span class="slide__description">RESEARCH WORK</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-part right-part__contact">
+                    <div class="contact__heading">
+                        <span class="contact__headingg-text">Get In Touch</span>
+                        <h2 class="contact__headingg-name">Contact</h2>
+                    </div>
+                    <div class="contact__warps">
+                        <div class="gird wide">
+                            <div class="row">
+                                <div class="col l-4 m-12 c-12 contact__info ">
+                                    <div class="contact__warps-info">
+                                        <div class="contact__warp-info-email contact__warp-info">
+                                            <div class="contact__warp-info-icon">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="icon-textbox" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-40 110.8V792H136V270.8l-27.6-21.5 39.3-50.5 42.8 33.3h643.1l42.8-33.3 39.3 50.5-27.7 21.5zM833.6 232L512 482 190.4 232l-42.8-33.3-39.3 50.5 27.6 21.5 341.6 265.6a55.99 55.99 0 0 0 68.7 0L888 270.8l27.6-21.5-39.3-50.5-42.7 33.2z"></path></svg>
+                                            </div>
+                                            <div class="contact__warp-info-title">
+                                                <span class="contact__title-main">Email</span>
+                                                <span class="contact__title-text">Send Email</span>
+                                            </div>
+                                        </div>
+                                        <div class="contact__warp-info-message contact__warp-info">
+                                            <div class="contact__warp-info-icon">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="icon-textbox" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path fill-rule="nonzero" d="M7.764 19.225c.59-.26 1.25-.309 1.868-.139.77.21 1.565.316 2.368.314 4.585 0 8-3.287 8-7.7S16.585 4 12 4s-8 3.287-8 7.7c0 2.27.896 4.272 2.466 5.676a2.8 2.8 0 0 1 .942 2.006l.356-.157zM12 2c5.634 0 10 4.127 10 9.7 0 5.573-4.366 9.7-10 9.7a10.894 10.894 0 0 1-2.895-.384.8.8 0 0 0-.534.039l-1.984.876a.8.8 0 0 1-1.123-.707l-.055-1.78a.797.797 0 0 0-.268-.57C3.195 17.135 2 14.617 2 11.7 2 6.127 6.367 2 12 2zM5.995 14.537l2.937-4.66a1.5 1.5 0 0 1 2.17-.4l2.336 1.75a.6.6 0 0 0 .723 0l3.155-2.396c.421-.319.971.185.689.633l-2.937 4.66a1.5 1.5 0 0 1-2.17.4l-2.336-1.75a.6.6 0 0 0-.723 0l-3.155 2.395c-.421.319-.971-.185-.689-.633z"></path></g></svg>
+                                            </div>
+                                            <div class="contact__warp-info-title">
+                                                <span class="contact__title-main">Messager</span>
+                                                <span class="contact__title-text">Send Messager</span>
+                                            </div>
+                                        </div>
+                                        <div class="contact__warp-info-phone contact__warp-info">
+                                            <div class="contact__warp-info-icon">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="icon-textbox" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"></path><path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path></svg>
+                                            </div>
+                                            <div class="contact__warp-info-title">
+                                                <span class="contact__title-main">Phone</span>
+                                                <span class="contact__title-text">Call Me</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-7 m-12 c-12 contact__froms">
+                                    <div class="contact__from-name contact__form">
+                                        <div class="contact__from-firstname">
+                                            <input type="text" name="First name" placeholder="" class="contact__form-input">
+                                            <label for="First name" class="contact__label">First Name</label>
+                                        </div>
+                                        <div class="contact__from-lastname">
+                                            <input type="text" name="Last name" placeholder="" class="contact__form-input">
+                                            <label for="Last name" class="contact__label">Last Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="contact__from-email contact__form">
+                                        <input type="text" name="Email" placeholder="" class="contact__form-input">
+                                        <label for="Email" class="contact__label">Email</label>
+                                    </div>
+                                    <div class="contact__from-messager contact__form">
+                                        <textarea cols="30" rows="8" name="Message" placeholder="" class="contact__form-input contact__form-input-message"></textarea>
+                                        <label for="Message" class="contact__label ">Message</label>
+                                    </div>
+                                    <button class="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./asset/js/script.js"></script>
+    <script src="./asset/js/color.js"></script>
+</body>
+</html>
