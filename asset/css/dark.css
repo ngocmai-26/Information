@@ -2,6 +2,9 @@
     background-color: #212121;
 }
 
+.dark-theme .btn-toggle {
+}
+
 .dark-theme .left-part {
     background-color: #161616;
 }
@@ -10,9 +13,6 @@
     background-color: #212121;
 }
 
-.dark-theme .slide {
-    background-image: url('../image/D206jimU4AAZ3BN.jpg');
-}
 
 .dark-theme .about__heading {
     color: #9f9d9d;
@@ -137,36 +137,14 @@
 
 .btn-toggle {
     display: inline-block;
-    width:60px;
-    height: 30px;
-    background-color: #1EC3F4;
-    background-image: url('background@2x.png');
+    width:50px;
+    height: 24px;
+    /* background-image: url('background@2x.png'); */
     background-size: 100%;
-    border-radius: 24px;
     position: relative;
     transition: all ease-in-out .4s; /* animati tutti gli elementi (all), accelerazione ease-in-out, durata 0.4 secondi */
     cursor: pointer;
-    margin: 0 45px;
+    margin: 12px 25px;
+    border: 0;
     
-}
-
-.btn-toggle::before {
-    position: absolute;
-    width:20px;
-    height: 20px;
-    background-color: white;
-    border-radius: 50%;
-    left:6px;
-    top:3px;
-    content: '';
-    transition: all ease-in-out .4s;
-    z-index: 10;
-}
-
-.btn-toggle.toggle-btn--dark {
-    background-color: #13447E;
-}
-
-.btn-toggle.toggle-btn--dark::before {
-    left: 30px;
 }
